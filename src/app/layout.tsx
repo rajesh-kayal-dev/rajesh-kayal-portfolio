@@ -23,15 +23,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(DATA.url),
   title: {
-    default: DATA.name,
-    template: `%s | ${DATA.name}`,
+    default: "Rajesh Kayal",
+    template: `%s | Rajesh Kayal`,
   },
   description: DATA.description,
   openGraph: {
-    title: `${DATA.name}`,
+    title: "Rajesh Kayal",
     description: DATA.description,
     url: DATA.url,
-    siteName: `${DATA.name}`,
+    siteName: "Rajesh Kayal",
     locale: "en_US",
     type: "website",
   },
@@ -53,6 +53,11 @@ export const metadata: Metadata = {
   verification: {
     google: "",
     yandex: "",
+  },
+  icons: {
+    icon: "/R-logo.jpg",
+    shortcut: "/R-logo.jpg",
+    apple: "/R-logo.jpg",
   },
 };
 
@@ -83,7 +88,7 @@ export default function RootLayout({
                 }}
               />
             </div>
-            <div className="relative z-10 max-w-2xl mx-auto py-12 pb-24 sm:py-24 px-6">
+            <div className="max-w-4xl mx-auto w-full py-12 pb-24 sm:py-24 px-6 relative z-10">
               {children}
             </div>
             <Navbar />

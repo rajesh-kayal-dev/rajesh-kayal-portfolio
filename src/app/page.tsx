@@ -1,5 +1,7 @@
 "use client";
 
+import { useState } from "react";
+
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -20,10 +22,12 @@ const GitHubActivity = dynamic(() => import("@/components/GitHubActivity"), {
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
+  const [showAllSkills, setShowAllSkills] = useState(false);
+
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
       <section id="hero">
-        <div className="mx-auto w-full max-w-3xl space-y-8">
+        <div className="mx-auto w-full space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
             <div className="flex-col flex flex-1 gap-2 order-2 md:order-1">
               <BlurFadeText
@@ -133,15 +137,25 @@ export default function Page() {
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-2">
-            {DATA.skills.map((skill, id) => (
+            {(showAllSkills ? DATA.skills : DATA.skills.slice(0, 15)).map((skill, id) => (
               <BlurFade key={skill.name} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2">
+                <div className="border bg-background border-border ring-2 ring-border/20 rounded-xl h-8 w-fit px-4 flex items-center gap-2 hover:bg-muted/50 transition-colors cursor-default">
                   {skill.icon && <skill.icon className="size-4 rounded overflow-hidden object-contain" />}
                   <span className="text-foreground text-sm font-medium">{skill.name}</span>
                 </div>
               </BlurFade>
             ))}
           </div>
+          {DATA.skills.length > 15 && (
+            <BlurFade delay={BLUR_FADE_DELAY * 11}>
+              <button
+                onClick={() => setShowAllSkills(!showAllSkills)}
+                className="text-xs font-medium text-muted-foreground hover:text-foreground transition-colors mt-2 underline underline-offset-4"
+              >
+                {showAllSkills ? "Show less" : "Show more..."}
+              </button>
+            </BlurFade>
+          )}
         </div>
       </section>
       <section id="projects">

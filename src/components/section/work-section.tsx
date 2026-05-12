@@ -11,6 +11,8 @@ import { DATA } from "@/data/resume";
 import { ChevronDown, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 
+import Markdown from "react-markdown";
+
 function LogoImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
 
@@ -67,6 +69,18 @@ export default function WorkSection() {
                   <div className="font-sans text-sm text-muted-foreground">
                     {work.title}
                   </div>
+                  {work.badges && work.badges.length > 0 && (
+                    <div className="flex flex-wrap gap-1 mt-1">
+                      {work.badges.map((badge) => (
+                        <span
+                          key={badge}
+                          className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-muted text-muted-foreground border border-border"
+                        >
+                          {badge}
+                        </span>
+                      ))}
+                    </div>
+                  )}
                 </div>
               </div>
               <div className="flex items-center gap-1 text-xs tabular-nums text-muted-foreground text-right flex-none">
@@ -76,8 +90,8 @@ export default function WorkSection() {
               </div>
             </div>
           </AccordionTrigger>
-          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground">
-            {work.description}
+          <AccordionContent className="p-0 ml-13 text-xs sm:text-sm text-muted-foreground prose dark:prose-invert max-w-none">
+            <Markdown>{work.description}</Markdown>
           </AccordionContent>
         </AccordionItem>
       ))}

@@ -1,4 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+"use client";
+
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
@@ -10,6 +11,11 @@ import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
 import { ArrowUpRight } from "lucide-react";
+import dynamic from "next/dynamic";
+
+const GitHubActivity = dynamic(() => import("@/components/GitHubActivity"), {
+  ssr: false,
+});
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -17,24 +23,24 @@ export default function Page() {
   return (
     <main className="min-h-dvh flex flex-col gap-14 relative">
       <section id="hero">
-        <div className="mx-auto w-full max-w-2xl space-y-8">
+        <div className="mx-auto w-full max-w-3xl space-y-8">
           <div className="gap-2 gap-y-6 flex flex-col md:flex-row justify-between">
-            <div className="gap-2 flex flex-col order-2 md:order-1">
+            <div className="flex-col flex flex-1 gap-2 order-2 md:order-1">
               <BlurFadeText
                 delay={BLUR_FADE_DELAY}
-                className="text-3xl font-semibold tracking-tighter sm:text-4xl lg:text-5xl"
+                className="text-4xl font-bold tracking-tighter sm:text-5xl lg:text-6xl cursor-pointer select-none"
                 yOffset={8}
-                text={`Hi, I'm ${DATA.name.split(" ")[0]}`}
+                text={`Hi, I'm ${DATA.name}.`}
               />
               <BlurFadeText
-                className="text-muted-foreground max-w-[600px] md:text-lg lg:text-xl"
+                className="text-muted-foreground text-lg md:text-xl lg:text-2xl max-w-[600px]"
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
             </div>
             <BlurFade delay={BLUR_FADE_DELAY} className="order-1 md:order-2">
-              <Avatar className="size-24 md:size-32 border rounded-full shadow-lg ring-4 ring-muted">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
+              <Avatar className="size-28 md:size-36 border border-border/50 rounded-full shadow-lg ring-4 ring-muted">
+                <AvatarImage alt={DATA.name} src={DATA.avatarUrl} className="object-cover grayscale" />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -54,6 +60,14 @@ export default function Page() {
             </div>
           </BlurFade>
         </div>
+      </section>
+      <section id="github">
+        <BlurFade delay={BLUR_FADE_DELAY * 4.5}>
+          <div className="flex flex-col gap-y-6">
+            <h2 className="text-xl font-bold">GitHub Activity</h2>
+            <GitHubActivity username="rajesh-kayal-dev" />
+          </div>
+        </BlurFade>
       </section>
       <section id="work">
         <div className="flex min-h-0 flex-col gap-y-6">

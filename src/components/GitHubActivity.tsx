@@ -77,7 +77,7 @@ export default function GitHubActivity({ username }: { username: string }) {
               const targetRect = (e.target as SVGRectElement).getBoundingClientRect();
               
               if (containerRect) {
-                setHoveredActivity(activity);
+                setHoveredActivity(activity as ActivityDay);
                 setMousePos({ 
                   x: targetRect.left - containerRect.left + targetRect.width / 2, 
                   y: targetRect.top - containerRect.top 

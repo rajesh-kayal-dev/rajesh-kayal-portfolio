@@ -1,10 +1,16 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import { GitHubCalendar, type Activity } from "react-github-calendar";
+import GitHubCalendar from "react-github-calendar";
+
+type ActivityDay = {
+  date: string;
+  count: number;
+  level: number;
+};
 
 export default function GitHubActivity({ username }: { username: string }) {
-  const [hoveredActivity, setHoveredActivity] = useState<Activity | null>(null);
+  const [hoveredActivity, setHoveredActivity] = useState<ActivityDay | null>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
 

@@ -62,10 +62,10 @@ export default function GitHubActivity({ username }: { username: string }) {
         }}
         showWeekdayLabels={false}
         labels={{
-          totalCount: "1,197 contributions in the last year",
+          totalCount: "{{count}} contributions in the last year",
         }}
         renderBlock={(block, activity) => (
-          React.cloneElement(block as React.ReactElement, {
+          React.cloneElement(block as React.ReactElement<React.SVGProps<SVGRectElement>>, {
             onMouseEnter: (e: React.MouseEvent) => {
               const containerRect = containerRef.current?.getBoundingClientRect();
               const targetRect = (e.target as SVGRectElement).getBoundingClientRect();

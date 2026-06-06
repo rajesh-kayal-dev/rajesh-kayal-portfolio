@@ -61,7 +61,6 @@ export default function GitHubActivity({ username }: { username: string }) {
           dark: ["#161616", "#0e4429", "#006d32", "#26a641", "#39d353"],
         }}
         showWeekdayLabels={false}
-        responsive={true}
         labels={{
           totalCount: "1,197 contributions in the last year",
         }}

@@ -9,17 +9,23 @@ type ActivityDay = {
   level: number;
 };
 
+// Explicit type for the props we pass to the cloned SVG block element
+type BlockProps = {
+  onMouseEnter?: (e: React.MouseEvent<SVGRectElement>) => void;
+  onMouseLeave?: () => void;
+  className?: string;
+};
+
 export default function GitHubActivity({ username }: { username: string }) {
   const [hoveredActivity, setHoveredActivity] = useState<ActivityDay | null>(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // Helper to format the date with ordinal suffix: e.g. "April 16th"
   const formatGitHubDate = (dateString: string) => {
     const date = new Date(dateString);
     const month = date.toLocaleString("en-US", { month: "long" });
     const day = date.getDate();
-    
+
     let suffix = "th";
     if (day < 10 || day > 20) {
       switch (day % 10) {
@@ -28,25 +34,29 @@ export default function GitHubActivity({ username }: { username: string }) {
         case 3: suffix = "rd"; break;
       }
     }
-    
+
     return `${month} ${day}${suffix}`;
   };
 
   return (
-    <div ref={containerRef} className="relative w-full flex flex-col items-center justify-center group/calendar">
+    <div
+      ref={containerRef}
+      className="relative w-full flex flex-col items-center justify-center group/calendar"
+    >
       {/* Custom Premium Tooltip */}
       {hoveredActivity && (
-        <div 
+        <div
           className="absolute z-50 pointer-events-none bg-[#0d1117] text-white border border-neutral-800 text-[12px] py-2 px-3 rounded-md shadow-2xl animate-in fade-in zoom-in duration-150"
           style={{
             left: mousePos.x,
             top: mousePos.y - 6,
-            transform: 'translate(-50%, -100%)',
+            transform: "translate(-50%, -100%)",
           }}
         >
           <div className="font-sans whitespace-nowrap">
             <span className="font-semibold text-white text-[11px]">
-              {hoveredActivity.count === 0 ? "No" : hoveredActivity.count} contribution{hoveredActivity.count !== 1 ? "s" : ""}
+              {hoveredActivity.count === 0 ? "No" : hoveredActivity.count}{" "}
+              contribution{hoveredActivity.count !== 1 ? "s" : ""}
             </span>
             <span className="text-neutral-400 text-[11px]"> on </span>
             <span className="font-semibold text-white text-[11px]">
@@ -70,24 +80,27 @@ export default function GitHubActivity({ username }: { username: string }) {
         labels={{
           totalCount: "{{count}} contributions in the last year",
         }}
-        renderBlock={(block, activity) => (
-          React.cloneElement(block as React.ReactElement<React.SVGProps<SVGRectElement>>, {
-            onMouseEnter: (e: React.MouseEvent) => {
-              const containerRect = containerRef.current?.getBoundingClientRect();
-              const targetRect = (e.target as SVGRectElement).getBoundingClientRect();
-              
-              if (containerRect) {
-                setHoveredActivity(activity as ActivityDay);
-                setMousePos({ 
-                  x: targetRect.left - containerRect.left + targetRect.width / 2, 
-                  y: targetRect.top - containerRect.top 
-                });
-              }
-            },
-            onMouseLeave: () => setHoveredActivity(null),
-            className: "cursor-pointer outline-none transition-all duration-200 hover:stroke-white hover:stroke-[0.5px]",
-          })
-        )}
+        renderBlock={(block, activity) =>
+          React.cloneElement(
+            block as React.ReactElement<BlockProps>,
+            {
+              onMouseEnter: (e: React.MouseEvent<SVGRectElement>) => {
+                const containerRect = containerRef.current?.getBoundingClientRect();
+                const targetRect = (e.target as SVGRectElement).getBoundingClientRect();
+                if (containerRect) {
+                  setHoveredActivity(activity as ActivityDay);
+                  setMousePos({
+                    x: targetRect.left - containerRect.left + targetRect.width / 2,
+                    y: targetRect.top - containerRect.top,
+                  });
+                }
+              },
+              onMouseLeave: () => setHoveredActivity(null),
+              className:
+                "cursor-pointer outline-none transition-all duration-200 hover:stroke-white hover:stroke-[0.5px]",
+            }
+          )
+        }
         style={{
           color: "hsl(var(--muted-foreground))",
           maxWidth: "100%",
@@ -97,4 +110,3 @@ export default function GitHubActivity({ username }: { username: string }) {
     </div>
   );
 }
-

@@ -1,47 +1,57 @@
-<div align="center">
-<img alt="Portfolio" src="https://github.com/dillionverma/portfolio/assets/16860528/57ffca81-3f0a-4425-b31d-094f61725455" width="90%">
-</div>
+# 👨‍💻 Rajesh Kayal - Developer Portfolio
 
-# Portfolio [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fdillionverma%2Fportfolio)
+An elegant, high-performance developer portfolio built to showcase modern AI engineering, full-stack systems development, and hackathon projects.
 
-Built with next.js, [shadcn/ui](https://ui.shadcn.com/), and [magic ui](https://magicui.design/), deployed on Vercel.
+Developed using **Next.js 14**, **React**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, **Shadcn UI**, and **Magic UI**, and deployed on **Vercel**.
 
-# Features
+---
 
-- Setup only takes a few minutes by editing the [single config file](./src/data/resume.tsx)
-- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
-- Includes a blog
-- Responsive for different devices
-- Optimized for Next.js and Vercel
+## ✨ Features
 
-# Getting Started Locally
+- 🛠️ **Config-Driven Design:** Setup and configuration are managed through a single file: [resume.tsx](./src/data/resume.tsx).
+- 🎨 **Rich Aesthetics & Dark Mode:** Designed with smooth transitions, modern typography (Google Fonts), and animated layouts.
+- ⚡ **Performance & SEO Optimized:** Built utilizing Next.js app router for fast loads and structured meta layouts.
+- 📱 **Fully Responsive:** Adapts beautifully across all device sizes (mobile, tablet, desktop).
 
-1. Clone this repository to your local machine:
+---
 
-   ```bash
-   git clone https://github.com/dillionverma/portfolio
-   ```
+## 🛠️ Tech Stack
 
-2. Move to the cloned directory
+- **Framework:** Next.js 14 (App Router)
+- **Styling & Components:** Tailwind CSS, Shadcn UI, Magic UI
+- **Animations:** Framer Motion
+- **Language:** TypeScript
+- **Deployment:** Vercel
 
-   ```bash
-   cd portfolio
-   ```
+---
 
-3. Install dependencies:
+## 🚀 Getting Started Locally
 
-   ```bash
-   pnpm install
-   ```
+### 1. Clone this repository
+```bash
+git clone https://github.com/rajesh-kayal-dev/rajesh-kayal-portfolio.git
+cd rajesh-kayal-portfolio
+```
 
-4. Start the local Server:
+### 2. Install dependencies
+```bash
+npm install
+# or
+pnpm install
+# or
+yarn install
+```
 
-   ```bash
-   pnpm dev
-   ```
+### 3. Run the development server
+```bash
+npm run dev
+```
 
-5. Open the [Config file](./src/data/resume.tsx) and make changes
+### 4. Customizing Your Portfolio
+Simply open [src/data/resume.tsx](./src/data/resume.tsx) and update the `DATA` object with your details, skills, experiences, and projects.
 
-# License
+---
 
-Licensed under the [MIT license](https://github.com/dillionverma/portfolio/blob/main/LICENSE.md).
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).

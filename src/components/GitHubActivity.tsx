@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState, useRef } from "react";
-import GitHubCalendar from "react-github-calendar";
+import { GitHubCalendar } from "react-github-calendar";
 
 type ActivityDay = {
   date: string;

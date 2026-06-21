@@ -74,6 +74,7 @@ export default function GitHubActivity({ username }: { username: string }) {
         blockMargin={4}
         fontSize={12}
         theme={{
+          light: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"],
           dark: ["#161616", "#0e4429", "#006d32", "#26a641", "#39d353"],
         }}
         showWeekdayLabels={false}

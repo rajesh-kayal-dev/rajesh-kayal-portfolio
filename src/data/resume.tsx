@@ -1,3 +1,4 @@
+import React from "react";
 import { Icons } from "@/components/icons";
 import { HomeIcon } from "lucide-react";
 
@@ -8,46 +9,49 @@ export const DATA = {
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
-    "AI Software Engineer building AI-powered SaaS platforms, automation tools, and full stack applications using Next.js, React, Node.js, and modern AI technologies.",
+    "Backend-Focused Full Stack Developer building scalable applications and AI-powered tools with Node.js, React, Next.js, and modern developer technologies.",
   summary:
-    "Over the last 1.5+ years, I've been building backend systems, full-stack applications, and AI-powered tools. Currently pursuing a [Master's in Computer Applications](/#education), I've gained hands-on experience across [multiple software development roles](/#work), working with modern web technologies, APIs, databases, and scalable applications. I've also participated in [5+ hackathons](/#hackathons), securing podium finishes 2 times.",
+    "Over the last 1+ years, I've been building backend systems, REST APIs, and full-stack applications. Currently pursuing a [Master's in Computer Applications](/#education), I've gained hands-on experience across [multiple software development roles](/#work), working with Node.js, databases, cloud services, and scalable applications. I enjoy building practical software, exploring AI integrations, and have also participated in [5+ hackathons](/#hackathons), securing podium finishes twice.",
   avatarUrl: "/me.png",
   skills: [
-    { name: "React.js", icon: Icons.react },
-    { name: "Next.js", icon: Icons.nextjs },
-    { name: "TypeScript", icon: Icons.typescript },
-    { name: "Node.js", icon: Icons.nodejs },
-    { name: "Postgres", icon: Icons.postgresql },
-    { name: "Docker", icon: Icons.docker },
-    { name: "LLMs", icon: Icons.openai },
-    { name: "OpenAI API SDK", icon: Icons.openai },
-    { name: "Tailwind CSS", icon: Icons.tailwindcss },
-    { name: "Git/GitHub", icon: Icons.github },
-    { name: "Express.js", icon: Icons.express },
-    { name: "MongoDB", icon: Icons.mongodb },
-    { name: "Redis", icon: Icons.redis },
-    { name: "Shadcn/UI", icon: Icons.shadcn },
-    { name: "Redux", icon: Icons.redux },
-    { name: "LangChain", icon: Icons.langchain },
-    { name: "LangGraph", icon: Icons.langgraph },
-    { name: "RAG", icon: Icons.ai },
-    { name: "Vector Databases", icon: Icons.mongodb },
-    { name: "Pinecone", icon: Icons.mongodb },
-    { name: "Qdrant", icon: Icons.mongodb },
-    { name: "AI Agents Workflows", icon: Icons.ai },
-    { name: "n8n", icon: Icons.n8n },
-    { name: "Hugging Face", icon: Icons.huggingface },
-    { name: "GPT-4", icon: Icons.openai },
-    { name: "Gemini", icon: Icons.gemini },
-    { name: "Claude", icon: Icons.anthropic },
-    { name: "Firebase", icon: Icons.firebase },
-    { name: "WebSockets", icon: Icons.globe },
-    { name: "AWS EC2 S3", icon: Icons.aws },
-    { name: "Google Cloud", icon: Icons.gcp },
-    { name: "Figma", icon: Icons.figma },
-    { name: "DSA", icon: Icons.dsa },
-    { name: "Vibe Coding", icon: Icons.vibecoding },
-  ],
+  // Backend
+  { name: "Node.js", icon: Icons.nodejs },
+  { name: "Express.js", icon: Icons.express },
+  { name: "TypeScript", icon: Icons.typescript },
+  { name: "WebSockets", icon: Icons.globe },
+
+  // Frontend
+  { name: "React.js", icon: Icons.react },
+  { name: "Next.js", icon: Icons.nextjs },
+  { name: "Redux", icon: Icons.redux },
+  { name: "Tailwind CSS", icon: Icons.tailwindcss },
+  { name: "Shadcn/UI", icon: Icons.shadcn },
+
+  // Databases
+  { name: "MongoDB", icon: Icons.mongodb },
+  { name: "PostgreSQL", icon: Icons.postgresql },
+  { name: "Redis", icon: Icons.redis },
+  { name: "Pinecone", icon: Icons.mongodb },
+  { name: "Qdrant", icon: Icons.mongodb },
+
+  // Cloud & DevOps
+  { name: "Docker", icon: Icons.docker },
+  { name: "AWS", icon: Icons.aws },
+  { name: "Git/GitHub", icon: Icons.github },
+  { name: "Google Cloud", icon: Icons.gcp },
+  { name: "Firebase", icon: Icons.firebase },
+
+  // AI & Integrations
+  { name: "OpenAI API", icon: Icons.openai },
+  { name: "LLMs", icon: Icons.openai },
+  { name: "LangChain", icon: Icons.langchain },
+  { name: "LangGraph", icon: Icons.langgraph },
+  { name: "RAG", icon: Icons.ai },
+  { name: "Vector Databases", icon: Icons.mongodb },
+  { name: "AI Agents", icon: Icons.ai },
+  { name: "n8n", icon: Icons.n8n },
+  { name: "Hugging Face", icon: Icons.huggingface },
+],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
@@ -373,7 +377,7 @@ export const DATA = {
       description:
         "A massive inter-university global hackathon that gathered 110+ teams from 20 universities to tackle UN Sustainable Development Goals (SDGs) and Viksit Bharat themes.",
       image: "/hackathon.png",
-      links: [],
+      links: [] as Array<{ type: string; href: string; icon: React.ReactNode }>,
     },
     {
       title: "Padmavyuh Hackathon 4.0",
@@ -382,7 +386,7 @@ export const DATA = {
       description:
         "A high-stakes annual national-level technical prototype challenge focused on engineering and innovation.",
       image: "/hackathon.png",
-      links: [],
+      links: [] as Array<{ type: string; href: string; icon: React.ReactNode }>,
     },
     {
       title: "Surreal World Global Hackathon",
@@ -391,7 +395,7 @@ export const DATA = {
       description:
         "An international development sprint focused on virtual ecosystem designs and immersive digital experiences.",
       image: "/hackathon.png",
-      links: [],
+      links: [] as Array<{ type: string; href: string; icon: React.ReactNode }>,
     },
     {
       title: "Lakshagriha Hackathon 4.0",
@@ -400,7 +404,7 @@ export const DATA = {
       description:
         "A university-wide innovation layout challenge for hardware and software tracking systems.",
       image: "/hackathon.png",
-      links: [],
+      links: [] as Array<{ type: string; href: string; icon: React.ReactNode }>,
     },
     {
       title: "Padmavyuh Hackathon 3.0",

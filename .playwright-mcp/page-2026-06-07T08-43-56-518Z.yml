@@ -1,0 +1,473 @@
+- generic [active] [ref=e1]:
+  - main [ref=e5]:
+    - generic [ref=e8]:
+      - generic [ref=e9]:
+        - generic [ref=e11] [cursor=pointer]: Hi, I'm Rajesh.
+        - generic [ref=e13]: \resumeItem{Developed \textbf{Node.js/Express.js REST APIs} and implemented \textbf{Redis} caching to accelerate response times for frequent endpoints.}
+      - generic [ref=e16]: RK
+    - generic [ref=e18]:
+      - heading "About" [level=2] [ref=e20]
+      - paragraph [ref=e23]:
+        - text: Over the last 1.5+ years, I've been building backend systems, full-stack applications, and AI-powered tools. Currently pursuing a
+        - link "Master's in Computer Applications" [ref=e24] [cursor=pointer]:
+          - /url: /#education
+        - text: ", I've gained hands-on experience across"
+        - link "multiple software development roles" [ref=e25] [cursor=pointer]:
+          - /url: /#work
+        - text: ", working with modern web technologies, APIs, databases, and scalable applications. I've also participated in"
+        - link "5+ hackathons" [ref=e26] [cursor=pointer]:
+          - /url: /#hackathons
+        - text: ", securing podium finishes 2 times."
+    - heading "GitHub Activity" [level=2] [ref=e30]
+    - generic [ref=e32]:
+      - heading "Work Experience" [level=2] [ref=e34]
+      - generic [ref=e36]:
+        - heading "Zeetron Networks Pvt Ltd Zeetron Networks Pvt Ltd Full Stack Developer Intern React.js Node.js Express.js PostgreSQL AWS S3 Gemini AI RAG Jan 2026 - Present" [level=3] [ref=e38]:
+          - button "Zeetron Networks Pvt Ltd Zeetron Networks Pvt Ltd Full Stack Developer Intern React.js Node.js Express.js PostgreSQL AWS S3 Gemini AI RAG Jan 2026 - Present" [ref=e39] [cursor=pointer]:
+            - generic [ref=e40]:
+              - generic [ref=e41]:
+                - img "Zeetron Networks Pvt Ltd" [ref=e42]
+                - generic [ref=e43]:
+                  - generic [ref=e44]:
+                    - text: Zeetron Networks Pvt Ltd
+                    - generic [ref=e45]:
+                      - img [ref=e46]
+                      - img [ref=e48]
+                  - generic [ref=e50]: Full Stack Developer Intern
+                  - generic [ref=e51]:
+                    - generic [ref=e52]: React.js
+                    - generic [ref=e53]: Node.js
+                    - generic [ref=e54]: Express.js
+                    - generic [ref=e55]: PostgreSQL
+                    - generic [ref=e56]: AWS S3
+                    - generic [ref=e57]: Gemini AI
+                    - generic [ref=e58]: RAG
+              - generic [ref=e60]: Jan 2026 - Present
+        - heading "Jubili.in Jubili.in Full Stack Developer Intern Next.js MongoDB E-commerce AI Shopping Full Stack AWS Jun 2025 - Aug 2025" [level=3] [ref=e62]:
+          - button "Jubili.in Jubili.in Full Stack Developer Intern Next.js MongoDB E-commerce AI Shopping Full Stack AWS Jun 2025 - Aug 2025" [ref=e63] [cursor=pointer]:
+            - generic [ref=e64]:
+              - generic [ref=e65]:
+                - img "Jubili.in" [ref=e66]
+                - generic [ref=e67]:
+                  - generic [ref=e68]:
+                    - text: Jubili.in
+                    - generic [ref=e69]:
+                      - img [ref=e70]
+                      - img [ref=e72]
+                  - generic [ref=e74]: Full Stack Developer Intern
+                  - generic [ref=e75]:
+                    - generic [ref=e76]: Next.js
+                    - generic [ref=e77]: MongoDB
+                    - generic [ref=e78]: E-commerce
+                    - generic [ref=e79]: AI Shopping
+                    - generic [ref=e80]: Full Stack
+                    - generic [ref=e81]: AWS
+              - generic [ref=e83]: Jun 2025 - Aug 2025
+        - heading "Powermycode Solutions Powermycode Solutions Backend Developer Node.js Laravel MySQL REST API Microservices Docker Feb 2024 - Aug 2024" [level=3] [ref=e85]:
+          - button "Powermycode Solutions Powermycode Solutions Backend Developer Node.js Laravel MySQL REST API Microservices Docker Feb 2024 - Aug 2024" [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]:
+              - generic [ref=e88]:
+                - img "Powermycode Solutions" [ref=e89]
+                - generic [ref=e90]:
+                  - generic [ref=e91]:
+                    - text: Powermycode Solutions
+                    - generic [ref=e92]:
+                      - img [ref=e93]
+                      - img [ref=e95]
+                  - generic [ref=e97]: Backend Developer
+                  - generic [ref=e98]:
+                    - generic [ref=e99]: Node.js
+                    - generic [ref=e100]: Laravel
+                    - generic [ref=e101]: MySQL
+                    - generic [ref=e102]: REST API
+                    - generic [ref=e103]: Microservices
+                    - generic [ref=e104]: Docker
+              - generic [ref=e106]: Feb 2024 - Aug 2024
+        - heading "IVDisplays IVDisplays Junior Backend Developer Laravel Node.js MySQL E-commerce Payment Gateways Sept 2023 - Jan 2024" [level=3] [ref=e108]:
+          - button "IVDisplays IVDisplays Junior Backend Developer Laravel Node.js MySQL E-commerce Payment Gateways Sept 2023 - Jan 2024" [ref=e109] [cursor=pointer]:
+            - generic [ref=e110]:
+              - generic [ref=e111]:
+                - img "IVDisplays" [ref=e112]
+                - generic [ref=e113]:
+                  - generic [ref=e114]:
+                    - text: IVDisplays
+                    - generic [ref=e115]:
+                      - img [ref=e116]
+                      - img [ref=e118]
+                  - generic [ref=e120]: Junior Backend Developer
+                  - generic [ref=e121]:
+                    - generic [ref=e122]: Laravel
+                    - generic [ref=e123]: Node.js
+                    - generic [ref=e124]: MySQL
+                    - generic [ref=e125]: E-commerce
+                    - generic [ref=e126]: Payment Gateways
+              - generic [ref=e128]: Sept 2023 - Jan 2024
+        - heading "EjobIndia EjobIndia Software Developer Trainee Java PHP MySQL JavaScript HTML5 CSS3 Jan 2023 - Aug 2023" [level=3] [ref=e130]:
+          - button "EjobIndia EjobIndia Software Developer Trainee Java PHP MySQL JavaScript HTML5 CSS3 Jan 2023 - Aug 2023" [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - img "EjobIndia" [ref=e134]
+                - generic [ref=e135]:
+                  - generic [ref=e136]:
+                    - text: EjobIndia
+                    - generic [ref=e137]:
+                      - img [ref=e138]
+                      - img [ref=e140]
+                  - generic [ref=e142]: Software Developer Trainee
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: Java
+                    - generic [ref=e145]: PHP
+                    - generic [ref=e146]: MySQL
+                    - generic [ref=e147]: JavaScript
+                    - generic [ref=e148]: HTML5
+                    - generic [ref=e149]: CSS3
+              - generic [ref=e151]: Jan 2023 - Aug 2023
+    - generic [ref=e153]:
+      - heading "Education" [level=2] [ref=e155]
+      - 'link "Dev Bhoomi Uttarakhand University Dev Bhoomi Uttarakhand University Master of Computer Applications | CGPA: 8.5 / 10 2024 - 2026" [ref=e158] [cursor=pointer]':
+        - /url: https://www.dbuu.ac.in/
+        - generic [ref=e159]:
+          - img "Dev Bhoomi Uttarakhand University" [ref=e160]
+          - generic [ref=e161]:
+            - generic [ref=e162]:
+              - text: Dev Bhoomi Uttarakhand University
+              - img [ref=e163]
+            - generic [ref=e166]: "Master of Computer Applications | CGPA: 8.5 / 10"
+        - generic [ref=e168]: 2024 - 2026
+    - generic [ref=e170]:
+      - heading "Skills" [level=2] [ref=e172]
+      - generic [ref=e173]:
+        - generic [ref=e175]:
+          - img "React" [ref=e176]
+          - generic [ref=e178]: React.js
+        - generic [ref=e180]:
+          - img "Next.js" [ref=e181]
+          - generic [ref=e183]: Next.js
+        - generic [ref=e185]:
+          - img [ref=e186]
+          - generic [ref=e188]: TypeScript
+        - generic [ref=e190]:
+          - img "Node.js" [ref=e191]
+          - generic [ref=e193]: Node.js
+        - generic [ref=e195]:
+          - img "PostgreSQL" [ref=e196]
+          - generic [ref=e198]: Postgres
+        - generic [ref=e200]:
+          - img "Docker" [ref=e201]
+          - generic [ref=e203]: Docker
+        - generic [ref=e205]:
+          - img [ref=e206]
+          - generic [ref=e208]: LLMs
+        - generic [ref=e210]:
+          - img [ref=e211]
+          - generic [ref=e213]: OpenAI API SDK
+        - generic [ref=e215]:
+          - img "Tailwind CSS" [ref=e216]
+          - generic [ref=e218]: Tailwind CSS
+        - generic [ref=e220]:
+          - img "GitHub" [ref=e221]
+          - generic [ref=e223]: Git/GitHub
+        - generic [ref=e225]:
+          - img "Express.js" [ref=e226]:
+            - generic [ref=e228]: EX
+          - generic [ref=e229]: Express.js
+        - generic [ref=e231]:
+          - img "MongoDB" [ref=e232]
+          - generic [ref=e234]: MongoDB
+        - generic [ref=e236]:
+          - img "Redis" [ref=e237]
+          - generic [ref=e239]: Redis
+        - generic [ref=e241]:
+          - img "shadcn/ui" [ref=e242]
+          - generic [ref=e244]: Shadcn/UI
+        - generic [ref=e246]:
+          - img "Redux" [ref=e247]
+          - generic [ref=e249]: Redux
+      - button "Show more..." [ref=e251]
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e259]: My Projects
+        - generic [ref=e261]:
+          - heading "Check out my latest work" [level=2] [ref=e262]
+          - paragraph [ref=e263]: I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
+      - generic [ref=e264]:
+        - generic [ref=e266] [cursor=pointer]:
+          - generic [ref=e267]:
+            - link "Sentio CLI" [ref=e268]:
+              - /url: https://cli-sentio.duckdns.org/
+              - img "Sentio CLI" [ref=e269]
+            - generic [ref=e270]:
+              - link "Website" [ref=e271]:
+                - /url: http://cli-sentio.duckdns.org
+                - generic [ref=e272]:
+                  - img [ref=e273]
+                  - text: Website
+              - link "GitHub Source" [ref=e276]:
+                - /url: https://github.com/rajesh-kayal-dev/sentio-cli
+                - generic [ref=e277]:
+                  - img "GitHub" [ref=e278]
+                  - text: Source
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - generic [ref=e282]:
+                - heading "Sentio CLI" [level=3] [ref=e283]
+                - time [ref=e284]: March 2026 - Present
+              - link "Open Sentio CLI" [ref=e285]:
+                - /url: https://cli-sentio.duckdns.org/
+                - img [ref=e286]
+            - paragraph [ref=e290]: A high-performance, agentic AI command-line interface designed to streamline developer workflows. It provides a standalone, zero-dependency environment for interacting with advanced AI models directly from your terminal with secure OAuth2 authentication.
+            - generic [ref=e291]:
+              - generic [ref=e292]: Next.js
+              - generic [ref=e293]: Node.js
+              - generic [ref=e294]: TypeScript
+              - generic [ref=e295]: Prisma
+              - generic [ref=e296]: Shadcn UI
+              - generic [ref=e297]: Magic UI
+              - generic [ref=e298]: Google AI Studio
+              - generic [ref=e299]: Vector Databases
+              - generic [ref=e300]: Better Auth
+              - generic [ref=e301]: Vercel
+        - generic [ref=e303] [cursor=pointer]:
+          - generic [ref=e304]:
+            - link "DataPilot AI" [ref=e305]:
+              - /url: https://datapilotai-delta.vercel.app/
+              - img "DataPilot AI" [ref=e306]
+            - generic [ref=e307]:
+              - link "Website" [ref=e308]:
+                - /url: https://datapilotai-delta.vercel.app/
+                - generic [ref=e309]:
+                  - img [ref=e310]
+                  - text: Website
+              - link "GitHub Source" [ref=e313]:
+                - /url: https://github.com/rajesh-kayal-dev/DataPilotAI
+                - generic [ref=e314]:
+                  - img "GitHub" [ref=e315]
+                  - text: Source
+          - generic [ref=e317]:
+            - generic [ref=e318]:
+              - generic [ref=e319]:
+                - heading "DataPilot AI" [level=3] [ref=e320]
+                - time [ref=e321]: May 2026 - Present
+              - link "Open DataPilot AI" [ref=e322]:
+                - /url: https://datapilotai-delta.vercel.app/
+                - img [ref=e323]
+            - paragraph [ref=e327]: An AI-powered document intelligence platform that enables users to upload, analyze, and chat with their documents using Retrieval-Augmented Generation (RAG) and multi-agent orchestration. Features semantic search with Qdrant vector store and fast responses powered by Redis caching.
+            - generic [ref=e328]:
+              - generic [ref=e329]: React.js
+              - generic [ref=e330]: TypeScript
+              - generic [ref=e331]: Node.js
+              - generic [ref=e332]: Express.js
+              - generic [ref=e333]: MongoDB
+              - generic [ref=e334]: Redis
+              - generic [ref=e335]: Qdrant
+              - generic [ref=e336]: Gemini AI
+              - generic [ref=e337]: Tailwind CSS
+              - generic [ref=e338]: JWT
+        - generic [ref=e340] [cursor=pointer]:
+          - generic [ref=e341]:
+            - link "Repolyx" [ref=e342]:
+              - /url: https://repolyx-client.vercel.app/
+              - img "Repolyx" [ref=e343]
+            - generic [ref=e344]:
+              - link "Website" [ref=e345]:
+                - /url: https://repolyx-client.vercel.app/
+                - generic [ref=e346]:
+                  - img [ref=e347]
+                  - text: Website
+              - link "GitHub Source" [ref=e350]:
+                - /url: https://github.com/rajesh-kayal-dev/Repolyx
+                - generic [ref=e351]:
+                  - img "GitHub" [ref=e352]
+                  - text: Source
+          - generic [ref=e354]:
+            - generic [ref=e355]:
+              - generic [ref=e356]:
+                - heading "Repolyx" [level=3] [ref=e357]
+                - time [ref=e358]: April 2026 - May 2026
+              - link "Open Repolyx" [ref=e359]:
+                - /url: https://repolyx-client.vercel.app/
+                - img [ref=e360]
+            - paragraph [ref=e364]: An AI-native engineering workspace and developer intelligence platform designed for repository analysis, workflow metrics, AI-driven chat, and security log tracking. Features dynamic dashboard analytics and GitHub OAuth integration.
+            - generic [ref=e365]:
+              - generic [ref=e366]: Next.js
+              - generic [ref=e367]: TypeScript
+              - generic [ref=e368]: Node.js
+              - generic [ref=e369]: Express.js
+              - generic [ref=e370]: Prisma
+              - generic [ref=e371]: PostgreSQL
+              - generic [ref=e372]: Neon
+              - generic [ref=e373]: Framer Motion
+              - generic [ref=e374]: Tailwind CSS
+              - generic [ref=e375]: Passport.js
+              - generic [ref=e376]: Zod
+        - generic [ref=e378] [cursor=pointer]:
+          - generic [ref=e379]:
+            - link "LaunchScore" [ref=e380]:
+              - /url: https://launchscore.vercel.app/
+              - img "LaunchScore" [ref=e381]
+            - generic [ref=e382]:
+              - link "Website" [ref=e383]:
+                - /url: https://launchscore.vercel.app/
+                - generic [ref=e384]:
+                  - img [ref=e385]
+                  - text: Website
+              - link "GitHub Source" [ref=e388]:
+                - /url: https://github.com/rajesh-kayal-dev/launchscore-saas
+                - generic [ref=e389]:
+                  - img "GitHub" [ref=e390]
+                  - text: Source
+          - generic [ref=e392]:
+            - generic [ref=e393]:
+              - generic [ref=e394]:
+                - heading "LaunchScore" [level=3] [ref=e395]
+                - time [ref=e396]: March 2026 - April 2026
+              - link "Open LaunchScore" [ref=e397]:
+                - /url: https://launchscore.vercel.app/
+                - img [ref=e398]
+            - paragraph [ref=e402]: A full-stack SaaS platform designed for startup validation and scoring. Includes secure JWT-based authentication, user-based website management, and a robust Express API connected to a Neon PostgreSQL database using Prisma ORM.
+            - generic [ref=e403]:
+              - generic [ref=e404]: React.js
+              - generic [ref=e405]: TypeScript
+              - generic [ref=e406]: Node.js
+              - generic [ref=e407]: Express.js
+              - generic [ref=e408]: Prisma
+              - generic [ref=e409]: PostgreSQL
+              - generic [ref=e410]: Neon
+              - generic [ref=e411]: Tailwind CSS
+              - generic [ref=e412]: JWT
+        - generic [ref=e414] [cursor=pointer]:
+          - generic [ref=e415]:
+            - link "FitCircle Pro" [ref=e416]:
+              - /url: https://fit-circle-pro.vercel.app
+              - img "FitCircle Pro" [ref=e417]
+            - generic [ref=e418]:
+              - link "Website" [ref=e419]:
+                - /url: https://fit-circle-pro.vercel.app
+                - generic [ref=e420]:
+                  - img [ref=e421]
+                  - text: Website
+              - link "GitHub Source" [ref=e424]:
+                - /url: https://github.com/rajesh-kayal-dev/FitCircle-Pro
+                - generic [ref=e425]:
+                  - img "GitHub" [ref=e426]
+                  - text: Source
+          - generic [ref=e428]:
+            - generic [ref=e429]:
+              - generic [ref=e430]:
+                - heading "FitCircle Pro" [level=3] [ref=e431]
+                - time [ref=e432]: February 2026 - March 2026
+              - link "Open FitCircle Pro" [ref=e433]:
+                - /url: https://fit-circle-pro.vercel.app
+                - img [ref=e434]
+            - paragraph [ref=e438]: A comprehensive fitness platform combining a social creator feed, e-commerce store, diet/workout logging trackers, and live chat. Architected using a modular microservices backend with an API Gateway routing to independent auth, user, diet, workout, feed, and chat services.
+            - generic [ref=e439]:
+              - generic [ref=e440]: React.js
+              - generic [ref=e441]: TypeScript
+              - generic [ref=e442]: Node.js
+              - generic [ref=e443]: Express.js
+              - generic [ref=e444]: Tailwind CSS
+              - generic [ref=e445]: Framer Motion
+              - generic [ref=e446]: Context API
+              - generic [ref=e447]: JWT
+              - generic [ref=e448]: Microservices
+        - generic [ref=e450] [cursor=pointer]:
+          - generic [ref=e451]:
+            - link "Jubili" [ref=e452]:
+              - /url: https://www.jubili.in/
+              - img "Jubili" [ref=e453]
+            - generic [ref=e454]:
+              - link "Website" [ref=e455]:
+                - /url: https://www.jubili.in/
+                - generic [ref=e456]:
+                  - img [ref=e457]
+                  - text: Website
+              - link "GitHub Source" [ref=e460]:
+                - /url: https://github.com/jubili-in/jubili-web-public
+                - generic [ref=e461]:
+                  - img "GitHub" [ref=e462]
+                  - text: Source
+          - generic [ref=e464]:
+            - generic [ref=e465]:
+              - generic [ref=e466]:
+                - heading "Jubili" [level=3] [ref=e467]
+                - time [ref=e468]: June 2025 - August 2025
+              - link "Open Jubili" [ref=e469]:
+                - /url: https://www.jubili.in/
+                - img [ref=e470]
+            - paragraph [ref=e474]: A high-scale e-commerce platform designed to optimize seller-to-customer retail experiences. Implemented advanced virtual try-on integrations, personalized store pages, and an automated real-time order tracking pipeline.
+            - generic [ref=e475]:
+              - generic [ref=e476]: Next.js
+              - generic [ref=e477]: TypeScript
+              - generic [ref=e478]: MongoDB
+              - generic [ref=e479]: Tailwind CSS
+              - generic [ref=e480]: AWS
+              - generic [ref=e481]: E-commerce
+    - generic [ref=e485]:
+      - generic [ref=e486]:
+        - generic [ref=e489]: Hackathons
+        - generic [ref=e491]:
+          - heading "I like building things" [level=2] [ref=e492]
+          - paragraph [ref=e493]: During my time in university, I attended 5+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.
+      - generic [ref=e495]:
+        - generic [ref=e496]:
+          - img "Lakshagriha Hackathon 2026" [ref=e500]
+          - generic [ref=e501]:
+            - time [ref=e502]: February 27th - 28th, 2026
+            - heading "Lakshagriha Hackathon 2026" [level=3] [ref=e503]
+            - paragraph [ref=e504]: Dehradun, UK, India
+            - paragraph [ref=e505]: A massive inter-university global hackathon that gathered 110+ teams from 20 universities to tackle UN Sustainable Development Goals (SDGs) and Viksit Bharat themes.
+        - generic [ref=e506]:
+          - img "Padmavyuh Hackathon 4.0" [ref=e510]
+          - generic [ref=e511]:
+            - time [ref=e512]: November 20th - 22nd, 2025
+            - heading "Padmavyuh Hackathon 4.0" [level=3] [ref=e513]
+            - paragraph [ref=e514]: Dehradun, UK, India
+            - paragraph [ref=e515]: A high-stakes annual national-level technical prototype challenge focused on engineering and innovation.
+        - generic [ref=e516]:
+          - img "Surreal World Global Hackathon" [ref=e520]
+          - generic [ref=e521]:
+            - time [ref=e522]: June 2nd, 2025
+            - heading "Surreal World Global Hackathon" [level=3] [ref=e523]
+            - paragraph [ref=e524]: International (Virtual)
+            - paragraph [ref=e525]: An international development sprint focused on virtual ecosystem designs and immersive digital experiences.
+        - generic [ref=e526]:
+          - img "Lakshagriha Hackathon 4.0" [ref=e530]
+          - generic [ref=e531]:
+            - time [ref=e532]: April 17th - 18th, 2025
+            - heading "Lakshagriha Hackathon 4.0" [level=3] [ref=e533]
+            - paragraph [ref=e534]: Dehradun, UK, India
+            - paragraph [ref=e535]: A university-wide innovation layout challenge for hardware and software tracking systems.
+        - generic [ref=e536]:
+          - img "Padmavyuh Hackathon 3.0" [ref=e539]
+          - generic [ref=e540]:
+            - time [ref=e541]: October 11th - 12th, 2024
+            - heading "Padmavyuh Hackathon 3.0" [level=3] [ref=e542]
+            - paragraph [ref=e543]: Dehradun, UK, India
+            - paragraph [ref=e544]: A major coding and structural model-making competition hosted by the Department of Computer Science and Engineering.
+    - generic [ref=e547]:
+      - generic [ref=e548]: Contact
+      - generic [ref=e551]:
+        - heading "Get in Touch" [level=2] [ref=e552]
+        - paragraph [ref=e553]:
+          - text: Want to chat? Just shoot me a dm
+          - link "with a direct question on twitter" [ref=e554] [cursor=pointer]:
+            - /url: https://x.com/RajeshKayal_
+          - text: and I'll respond whenever I can. I will ignore all soliciting.
+  - generic [ref=e555]:
+    - link [ref=e556] [cursor=pointer]:
+      - /url: /
+      - img [ref=e559]
+    - link "GitHub" [ref=e562] [cursor=pointer]:
+      - /url: https://github.com/rajesh-kayal-dev
+      - img "GitHub" [ref=e565]
+    - link "LinkedIn" [ref=e567] [cursor=pointer]:
+      - /url: https://www.linkedin.com/in/rajesh110/
+      - img "LinkedIn" [ref=e570]
+    - link [ref=e572] [cursor=pointer]:
+      - /url: https://x.com/RajeshKayal_
+      - img [ref=e575]
+    - link [ref=e577] [cursor=pointer]:
+      - /url: https://avely.me/rajesh
+      - img [ref=e580]
+    - button [ref=e584] [cursor=pointer]:
+      - img [ref=e585]

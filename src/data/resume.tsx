@@ -9,49 +9,49 @@ export const DATA = {
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
-    "Backend-Focused Full Stack Developer building scalable applications and AI-powered tools with Node.js, React, Next.js, and modern developer technologies.",
+    "Backend & AI-focused Full Stack Developer specializing in scalable backend systems, microservices, and AI-powered applications with Node.js, React, and modern cloud technologies.",
   summary:
-    "Over the last 1+ years, I've been building backend systems, REST APIs, and full-stack applications. Currently pursuing a [Master's in Computer Applications](/#education), I've gained hands-on experience across [multiple software development roles](/#work), working with Node.js, databases, cloud services, and scalable applications. I enjoy building practical software, exploring AI integrations, and have also participated in [5+ hackathons](/#hackathons), securing podium finishes twice.",
+    "Over the last 1+ years, I've been building backend systems, scalable REST APIs, and AI-powered full-stack applications. After completing my [Master's in Computer Applications](/#education) with a specialization in Full Stack Development with AI Integration, I've worked across [backend and full-stack development roles](/#work), building production-style applications using Node.js, microservices, databases, Docker, and modern AI technologies. I enjoy solving engineering problems, learning new technologies, and building software that people can actually use.",
   avatarUrl: "/me.png",
   skills: [
-  // Backend
-  { name: "Node.js", icon: Icons.nodejs },
-  { name: "Express.js", icon: Icons.express },
-  { name: "TypeScript", icon: Icons.typescript },
-  { name: "WebSockets", icon: Icons.globe },
+    // Backend
+    { name: "Node.js", icon: Icons.nodejs },
+    { name: "Express.js", icon: Icons.express },
+    { name: "TypeScript", icon: Icons.typescript },
+    { name: "WebSockets", icon: Icons.globe },
 
-  // Frontend
-  { name: "React.js", icon: Icons.react },
-  { name: "Next.js", icon: Icons.nextjs },
-  { name: "Redux", icon: Icons.redux },
-  { name: "Tailwind CSS", icon: Icons.tailwindcss },
-  { name: "Shadcn/UI", icon: Icons.shadcn },
+    // Frontend
+    { name: "React.js", icon: Icons.react },
+    { name: "Next.js", icon: Icons.nextjs },
+    { name: "Redux", icon: Icons.redux },
+    { name: "Tailwind CSS", icon: Icons.tailwindcss },
+    { name: "Shadcn/UI", icon: Icons.shadcn },
 
-  // Databases
-  { name: "MongoDB", icon: Icons.mongodb },
-  { name: "PostgreSQL", icon: Icons.postgresql },
-  { name: "Redis", icon: Icons.redis },
-  { name: "Pinecone", icon: Icons.mongodb },
-  { name: "Qdrant", icon: Icons.mongodb },
+    // Databases
+    { name: "MongoDB", icon: Icons.mongodb },
+    { name: "PostgreSQL", icon: Icons.postgresql },
+    { name: "Redis", icon: Icons.redis },
+    { name: "Pinecone", icon: Icons.mongodb },
+    { name: "Qdrant", icon: Icons.mongodb },
 
-  // Cloud & DevOps
-  { name: "Docker", icon: Icons.docker },
-  { name: "AWS", icon: Icons.aws },
-  { name: "Git/GitHub", icon: Icons.github },
-  { name: "Google Cloud", icon: Icons.gcp },
-  { name: "Firebase", icon: Icons.firebase },
+    // Cloud & DevOps
+    { name: "Docker", icon: Icons.docker },
+    { name: "AWS", icon: Icons.aws },
+    { name: "Git/GitHub", icon: Icons.github },
+    { name: "Google Cloud", icon: Icons.gcp },
+    { name: "Firebase", icon: Icons.firebase },
 
-  // AI & Integrations
-  { name: "OpenAI API", icon: Icons.openai },
-  { name: "LLMs", icon: Icons.openai },
-  { name: "LangChain", icon: Icons.langchain },
-  { name: "LangGraph", icon: Icons.langgraph },
-  { name: "RAG", icon: Icons.ai },
-  { name: "Vector Databases", icon: Icons.mongodb },
-  { name: "AI Agents", icon: Icons.ai },
-  { name: "n8n", icon: Icons.n8n },
-  { name: "Hugging Face", icon: Icons.huggingface },
-],
+    // AI & Integrations
+    { name: "OpenAI API", icon: Icons.openai },
+    { name: "LLMs", icon: Icons.openai },
+    { name: "LangChain", icon: Icons.langchain },
+    { name: "LangGraph", icon: Icons.langgraph },
+    { name: "RAG", icon: Icons.ai },
+    { name: "Vector Databases", icon: Icons.mongodb },
+    { name: "AI Agents", icon: Icons.ai },
+    { name: "n8n", icon: Icons.n8n },
+    { name: "Hugging Face", icon: Icons.huggingface },
+  ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],

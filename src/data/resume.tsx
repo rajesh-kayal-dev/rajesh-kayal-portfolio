@@ -1,6 +1,6 @@
 import React from "react";
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, Code2Icon } from "lucide-react";
 
 export const DATA = {
   name: "Rajesh",
@@ -20,7 +20,7 @@ export const DATA = {
     { name: "Tailwind CSS", icon: Icons.tailwindcss },
 
     // Backend
-    { name: "JavaScript", icon: Icons.javascript },
+    { name: "JavaScript", icon: Code2Icon },
     { name: "TypeScript", icon: Icons.typescript },
     { name: "Node.js", icon: Icons.nodejs },
     { name: "Express.js", icon: Icons.express },

@@ -296,7 +296,6 @@ export const DATA = {
         "MongoDB",
         "Tailwind CSS",
         "AWS",
-        "E-commerce",
       ],
       links: [
         {

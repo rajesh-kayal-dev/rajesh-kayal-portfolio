@@ -322,6 +322,14 @@ export const Icons = {
       <path d="M12 2L4.5 20.29l.71.71L12 18l6.79 3 .71-.71L12 2z" />
     </svg>
   ),
+  mcp: (props: IconProps) => (
+    <svg role="img" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" strokeWidth="1.6" {...props}>
+      <title>MCP</title>
+      <rect x="3" y="4" width="18" height="16" rx="3" />
+      <path d="M8 9h8M8 12h5M8 15h6" strokeLinecap="round" />
+      <circle cx="17" cy="15" r="2" fill="#8B5CF6" stroke="none" />
+    </svg>
+  ),
   openai: (props: IconProps) => (
     <svg role="img" viewBox="0 0 24 24" fill="#10a37f" {...props}>
       <title>OpenAI</title>

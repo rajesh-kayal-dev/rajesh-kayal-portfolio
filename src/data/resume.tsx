@@ -9,48 +9,39 @@ export const DATA = {
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description:
-    "Backend & AI-focused Full Stack Developer specializing in scalable backend systems, microservices, and AI-powered applications with Node.js, React, and modern cloud technologies.",
+    "Full Stack Developer with 1+ years of experience building backend services, responsive React applications, and AI-powered products using Node.js, Express.js, and modern web technologies.",
   summary:
-    "Over the last 1+ years, I've been building backend systems, scalable REST APIs, and AI-powered full-stack applications. After completing my [Master's in Computer Applications](/#education) with a specialization in Full Stack Development with AI Integration, I've worked across [backend and full-stack development roles](/#work), building production-style applications using Node.js, microservices, databases, Docker, and modern AI technologies. I enjoy solving engineering problems, learning new technologies, and building software that people can actually use.",
+    "Over the last 1+ years, I've been building modern web applications across internships and industry roles. I've worked on [backend services](/#work) with Node.js and Express.js, built responsive applications with React.js, and integrated AI capabilities into real-world products. After completing my [Master's in Computer Applications](/#education), I've focused on writing reliable software and continuously learning modern technologies.",
   avatarUrl: "/me.png",
   skills: [
-    // Backend
-    { name: "Node.js", icon: Icons.nodejs },
-    { name: "Express.js", icon: Icons.express },
-    { name: "TypeScript", icon: Icons.typescript },
-    { name: "WebSockets", icon: Icons.globe },
-
     // Frontend
     { name: "React.js", icon: Icons.react },
     { name: "Next.js", icon: Icons.nextjs },
-    { name: "Redux", icon: Icons.redux },
     { name: "Tailwind CSS", icon: Icons.tailwindcss },
-    { name: "Shadcn/UI", icon: Icons.shadcn },
+
+    // Backend
+    { name: "JavaScript", icon: Icons.javascript },
+    { name: "TypeScript", icon: Icons.typescript },
+    { name: "Node.js", icon: Icons.nodejs },
+    { name: "Express.js", icon: Icons.express },
 
     // Databases
-    { name: "MongoDB", icon: Icons.mongodb },
     { name: "PostgreSQL", icon: Icons.postgresql },
+    { name: "MongoDB", icon: Icons.mongodb },
     { name: "Redis", icon: Icons.redis },
-    { name: "Pinecone", icon: Icons.mongodb },
-    { name: "Qdrant", icon: Icons.mongodb },
 
-    // Cloud & DevOps
-    { name: "Docker", icon: Icons.docker },
-    { name: "AWS", icon: Icons.aws },
-    { name: "Git/GitHub", icon: Icons.github },
-    { name: "Google Cloud", icon: Icons.gcp },
-    { name: "Firebase", icon: Icons.firebase },
-
-    // AI & Integrations
-    { name: "OpenAI API", icon: Icons.openai },
-    { name: "LLMs", icon: Icons.openai },
+    // AI Integration
     { name: "LangChain", icon: Icons.langchain },
     { name: "LangGraph", icon: Icons.langgraph },
     { name: "RAG", icon: Icons.ai },
-    { name: "Vector Databases", icon: Icons.mongodb },
-    { name: "AI Agents", icon: Icons.ai },
-    { name: "n8n", icon: Icons.n8n },
-    { name: "Hugging Face", icon: Icons.huggingface },
+    { name: "MCP", icon: Icons.mcp },
+    { name: "Qdrant", icon: Icons.mongodb },
+    { name: "PGVector", icon: Icons.postgresql },
+
+    // Cloud & DevOps
+    { name: "Docker", icon: Icons.docker },
+    { name: "GitHub Actions", icon: Icons.github },
+    { name: "AWS S3", icon: Icons.aws },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -88,7 +79,7 @@ export const DATA = {
       },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:rajeshkayal8001@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -98,71 +89,35 @@ export const DATA = {
 
   work: [
     {
-      company: "Zeetron Networks Pvt Ltd",
+      company: "Zeetron Networks Pvt. Ltd.",
       href: "https://zeetronnetworks.com",
-      badges: ["React.js", "Node.js", "Express.js", "PostgreSQL", "AWS S3", "Gemini AI", "RAG"],
-      location: "Remote",
+      badges: ["Node.js", "Express.js", "REST API", "Microservices", "AI Integration"],
+      location: "Jaipur, Rajasthan",
       title: "Full Stack Developer Intern",
       logoUrl: "/zetron.jpg",
       start: "Jan 2026",
       end: "Present",
       description:
-        "- **Full-Stack Development:** Engineered scalable web applications using `React.js` and `Node.js`, implementing robust `Express.js` backends and `MongoDB` schemas.\n- **Automated Pipelines:** Designed RESTful APIs for email and resume generation using `AWS S3`, cutting manual processing time by **70%**.\n- **AI Innovation:** Built an AI-driven invoice OCR pipeline with `Gemini API`, reducing procurement entry effort by **~70%** and AI costs by **~50%**.\n- **Optimization:** Developed cron-based workflows for personalized recommendations, boosting user engagement by **30%**.",
+        "- **Client Projects:** Contributed to multiple client projects, including a multi-vendor eCommerce platform, a CRM system, and AI-powered applications.\n- **Feature Development:** Built backend features, developed REST APIs, fixed production issues, and collaborated with senior developers to deliver new functionality.\n- **Microservices & AI:** Worked on a microservices-based fitness platform, gaining hands-on experience with modern backend architecture and AI integration.",
     },
     {
-      company: "Jubili.in",
-      href: "https://jubili.in",
-      badges: ["Next.js", "MongoDB", "E-commerce", "AI Shopping", "Full Stack", "AWS"],
-      location: "Kolkata, IN",
-      title: "Full Stack Developer Intern",
-      logoUrl: "/jubili.jpg",
-      start: "Jun 2025",
-      end: "Aug 2025",
-      description:
-        "- **E-commerce Ecosystem:** Contributed to a high-scale e-commerce platform, focusing on seamless seller-to-customer experiences.\n- **AI Features:** Assisted in building AI-enhanced tools like **personalized store pages** and real-time order tracking.\n- **User Engagement:** Collaborated on innovative features such as **virtual try-ons**, enhancing the future of digital retail.",
-    },
-    {
-      company: "Powermycode Solutions",
+      company: "PowerMyCode Solutions Pvt. Ltd.",
       href: "",
-      badges: ["Node.js", "Laravel", "MySQL", "REST API", "Microservices", "Docker"],
+      badges: ["Node.js", "REST API", "Payment Gateways", "AWS S3"],
       location: "Remote",
       title: "Backend Developer",
       logoUrl: "/powermycode.jpg",
-      start: "Feb 2024",
+      start: "Jan 2024",
       end: "Aug 2024",
       description:
-        "- **Backend Systems:** Developed high-reliability systems using `Node.js` and `Laravel` for complex, real-world applications.\n- **Security Engineering:** Built secure REST APIs with advanced **Authentication** and **Role-Based Access Control (RBAC)**.\n- **Optimization:** Optimized database structures and engineered scalable architecture patterns to handle concurrent traffic.\n- **Modern Design:** Implemented microservices-based structuring to enhance system modularity and maintainability.",
-    },
-    {
-      company: "IVDisplays",
-      href: "",
-      badges: ["Laravel", "Node.js", "MySQL", "E-commerce", "Payment Gateways"],
-      location: "Remote",
-      title: "Junior Backend Developer",
-      logoUrl: "/IvDisplays.jpg",
-      start: "Sept 2023",
-      end: "Jan 2024",
-      description:
-        "- **Custom Web Solutions:** Engineered bespoke web applications using `Laravel` and `Node.js`, delivering tailored functionality for client-specific requirements.\n- **E-commerce & Payments:** Developed robust e-commerce platforms and successfully integrated secure **Payment Gateway** systems to facilitate seamless transactions.\n- **Performance Tuning:** Specialized in identifying and resolving backend bottlenecks, significantly improving application speed and stability.\n- **Legacy System Maintenance:** Debugged and refactored existing codebases to fix critical issues and enhance overall project maintainability.",
-    },
-    {
-      company: "EjobIndia",
-      href: "https://ejobindia.com",
-      badges: ["Java", "PHP", "MySQL", "JavaScript", "HTML5", "CSS3"],
-      location: "Kolkata, IN",
-      title: "Software Developer Trainee",
-      logoUrl: "/ejob_india.jpg",
-      start: "Jan 2023",
-      end: "Aug 2023",
-      description:
-        "- **Full-Stack Foundations:** Gained comprehensive hands-on experience in the complete software development lifecycle, from requirement analysis to deployment.\n- **Core Web Technologies:** Developed proficiency in building responsive front-end interfaces and robust backend logic using industry-standard frameworks.\n- **Collaborative Development:** Actively participated in team-based projects, leveraging **version control systems** and Agile methodologies to deliver quality code.\n- **Technical Problem Solving:** Focused on writing clean, maintainable code and solving complex algorithmic challenges to optimize application performance.",
+        "- **Backend Development:** Developed backend modules and REST APIs for production web applications, contributing to feature development and ongoing maintenance.\n- **Integrations:** Integrated payment gateways and cloud storage to support secure transactions and file management.\n- **Client Collaboration:** Worked directly with clients to gather requirements, resolve production issues, and improve application performance by **30%**.",
     },
   ],
   education: [
     {
-      school: "Dev Bhoomi Uttarakhand University",
+      school: "Dev Bhoomi Uttarakhand University (BDIT)",
       href: "https://www.dbuu.ac.in/",
-      degree: "Master of Computer Applications  | CGPA: 8.5 / 10",
+      degree: "Master of Computer Applications (MCA) | CGPA: 8.3",
       logoUrl: "/dbuu.jpg",
       start: "2024",
       end: "2026",
@@ -175,18 +130,13 @@ export const DATA = {
       dates: "March 2026 - Present",
       active: true,
       description:
-        "A high-performance, agentic AI command-line interface designed to streamline developer workflows. It provides a standalone, zero-dependency environment for interacting with advanced AI models directly from your terminal with secure OAuth2 authentication.",
+        "An agentic terminal assistant that helps developers automate everyday development tasks through natural language commands. Connects AI with GitHub and other developer tools via MCP to perform real development workflows securely, with OAuth 2.0 Device Flow authentication and automated cross-platform releases for Windows, macOS, and Linux.",
       technologies: [
         "Next.js",
         "Node.js",
         "TypeScript",
-        "Prisma",
-        "Shadcn UI",
-        "Magic UI",
-        "Google AI Studio",
-        "Vector Databases",
-        "Better Auth",
-        "Vercel",
+        "MCP",
+        "OAuth 2.0",
       ],
       links: [
         {
@@ -209,18 +159,16 @@ export const DATA = {
       dates: "May 2026 - Present",
       active: true,
       description:
-        "An AI-powered document intelligence platform that enables users to upload, analyze, and chat with their documents using Retrieval-Augmented Generation (RAG) and multi-agent orchestration. Features semantic search with Qdrant vector store and fast responses powered by Redis caching.",
+        "An AI-powered document intelligence platform that lets users upload documents and ask questions in natural language, with answers grounded in their own content using Retrieval-Augmented Generation (RAG). Retrieves relevant document context before generating responses, improving answer quality across 1000+ processed documents, and processes uploads asynchronously with BullMQ and AWS S3 to keep the application responsive.",
       technologies: [
-        "React.js",
-        "TypeScript",
         "Node.js",
         "Express.js",
-        "MongoDB",
-        "Redis",
+        "TypeScript",
+        "LangChain",
         "Qdrant",
-        "Gemini AI",
-        "Tailwind CSS",
-        "JWT",
+        "RAG",
+        "BullMQ",
+        "AWS S3",
       ],
       links: [
         {
@@ -311,17 +259,14 @@ export const DATA = {
       dates: "February 2026 - March 2026",
       active: true,
       description:
-        "A comprehensive fitness platform combining a social creator feed, e-commerce store, diet/workout logging trackers, and live chat. Architected using a modular microservices backend with an API Gateway routing to independent auth, user, diet, workout, feed, and chat services.",
+        "An AI-powered fitness platform that combines workouts, diet planning, AI chat, and fitness content into a single experience. Built with a microservices architecture separating authentication, workouts, diet, and chat into independent services connected through an API Gateway, with deployment automated via Docker and GitHub Actions.",
       technologies: [
         "React.js",
-        "TypeScript",
         "Node.js",
         "Express.js",
-        "Tailwind CSS",
-        "Framer Motion",
-        "Context API",
-        "JWT",
         "Microservices",
+        "Docker",
+        "GitHub Actions",
       ],
       links: [
         {

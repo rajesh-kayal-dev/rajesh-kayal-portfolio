@@ -95,8 +95,8 @@ export const DATA = {
       location: "Jaipur, Rajasthan",
       title: "Full Stack Developer Intern",
       logoUrl: "/zetron.jpg",
-      start: "Jan 2026",
-      end: "July",
+      start: "January 2026",
+      end: "June 2026",
       description:
         "- **Client Projects:** Contributed to multiple client projects, including a multi-vendor eCommerce platform, a CRM system, and AI-powered applications.\n- **Feature Development:** Built backend features, developed REST APIs, fixed production issues, and collaborated with senior developers to deliver new functionality.\n- **Microservices & AI:** Worked on a microservices-based fitness platform, gaining hands-on experience with modern backend architecture and AI integration.",
     },

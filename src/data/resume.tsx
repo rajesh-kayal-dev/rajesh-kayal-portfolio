@@ -96,7 +96,7 @@ export const DATA = {
       title: "Full Stack Developer Intern",
       logoUrl: "/zetron.jpg",
       start: "Jan 2026",
-      end: "Present",
+      end: "July",
       description:
         "- **Client Projects:** Contributed to multiple client projects, including a multi-vendor eCommerce platform, a CRM system, and AI-powered applications.\n- **Feature Development:** Built backend features, developed REST APIs, fixed production issues, and collaborated with senior developers to deliver new functionality.\n- **Microservices & AI:** Worked on a microservices-based fitness platform, gaining hands-on experience with modern backend architecture and AI integration.",
     },
@@ -107,20 +107,20 @@ export const DATA = {
       location: "Remote",
       title: "Backend Developer",
       logoUrl: "/powermycode.jpg",
-      start: "Jan 2024",
-      end: "Aug 2024",
+      start: "July 2023",
+      end: "June 2024",
       description:
         "- **Backend Development:** Developed backend modules and REST APIs for production web applications, contributing to feature development and ongoing maintenance.\n- **Integrations:** Integrated payment gateways and cloud storage to support secure transactions and file management.\n- **Client Collaboration:** Worked directly with clients to gather requirements, resolve production issues, and improve application performance by **30%**.",
     },
   ],
   education: [
     {
-      school: "Dev Bhoomi Uttarakhand University (BDIT)",
+      school: "Dev Bhoomi Uttarakhand University (DBUU)",
       href: "https://www.dbuu.ac.in/",
-      degree: "Master of Computer Applications (MCA) | CGPA: 8.3",
+      degree: "Master of Computer Applications (MCA) | CGPA: 8.0",
       logoUrl: "/dbuu.jpg",
-      start: "2024",
-      end: "2026",
+      start: "July 2024",
+      end: "July 2026",
     },
   ],
   projects: [

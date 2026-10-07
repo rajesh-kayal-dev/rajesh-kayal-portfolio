@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import ContactButton from "@/components/contact-button";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
@@ -88,6 +89,7 @@ export default function RootLayout({
                 }}
               />
             </div>
+            <ContactButton />
             <div className="max-w-4xl mx-auto w-full py-12 pb-24 sm:py-24 px-6 relative z-10">
               {children}
             </div>

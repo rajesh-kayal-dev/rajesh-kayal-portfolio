@@ -1,87 +1,93 @@
 import React from "react";
 import { Icons } from "@/components/icons";
-import { HomeIcon, Code2Icon } from "lucide-react";
+import {
+  HomeIcon,
+  Code2Icon,
+  Database,
+  Server,
+  Layers,
+  Network,
+  GitBranch,
+} from "lucide-react";
 
 export const DATA = {
-  name: "Rajesh",
+  name: "Rajesh Kayal",
   initials: "RK",
-  url: "https://www.linkedin.com/in/rajesh110/",
-  location: "India",
-  locationLink: "https://www.google.com/maps/place/India",
+  url: "https://www.linkedin.com/in/rajesh110",
+  location: "Kolkata, WB",
+  locationLink: "https://www.google.com/maps/place/Kolkata,+West+Bengal",
   description:
-    "Full Stack Developer with 1+ years of experience building backend services, responsive React applications, and AI-powered products using Node.js, Express.js, and modern web technologies.",
+    "Full Stack Developer and 2026 MCA graduate with 1+ year of experience building fast, secure and scalable products with React, Node.js, TypeScript, PostgreSQL, Kafka, Docker and AWS. Specialization in Cloud & DevOps with hands-on experience in Microservices System Architecture.",
+
   summary:
-    "Over the last 1+ years, I've been building modern web applications across internships and industry roles. I've worked on [backend services](/#work) with Node.js and Express.js, built responsive applications with React.js, and integrated AI capabilities into real-world products. After completing my [Master's in Computer Applications](/#education), I've focused on writing reliable software and continuously learning modern technologies.",
+    "Most users only see a button. I love building what happens after they click it. That curiosity turned me into a Full Stack Developer with 1+ year of experience. I build fast, secure and scalable products that actually go live and handle real users. My main stack is React, Node.js, TypeScript, PostgreSQL, Kafka, Docker and AWS. Specialization in Cloud & DevOps with hands-on experience in Microservices System Architecture. I enjoy turning complex problems into simple and clean systems that can grow with the product. Always open to connect and build impactful products.",
   avatarUrl: "/me.png",
   skills: [
     // Frontend
+    { name: "JavaScript", icon: Code2Icon },
+    { name: "TypeScript", icon: Icons.typescript },
     { name: "React.js", icon: Icons.react },
     { name: "Next.js", icon: Icons.nextjs },
     { name: "Tailwind CSS", icon: Icons.tailwindcss },
 
     // Backend
-    { name: "JavaScript", icon: Code2Icon },
-    { name: "TypeScript", icon: Icons.typescript },
     { name: "Node.js", icon: Icons.nodejs },
     { name: "Express.js", icon: Icons.express },
+    { name: "REST APIs", icon: Server },
+    { name: "Microservices", icon: Layers },
 
     // Databases
     { name: "PostgreSQL", icon: Icons.postgresql },
     { name: "MongoDB", icon: Icons.mongodb },
+    { name: "MySQL", icon: Database },
     { name: "Redis", icon: Icons.redis },
+    { name: "pgvector", icon: Icons.postgresql },
 
     // AI Integration
+    { name: "LLM APIs", icon: Icons.ai },
     { name: "LangChain", icon: Icons.langchain },
-    { name: "LangGraph", icon: Icons.langgraph },
     { name: "RAG", icon: Icons.ai },
-    { name: "MCP", icon: Icons.mcp },
-    { name: "Qdrant", icon: Icons.mongodb },
-    { name: "PGVector", icon: Icons.postgresql },
+    { name: "Vector Databases", icon: Database },
 
     // Cloud & DevOps
+    { name: "AWS", icon: Icons.aws },
+    { name: "EC2", icon: Icons.aws },
+    { name: "S3", icon: Icons.aws },
+    { name: "RDS", icon: Icons.aws },
     { name: "Docker", icon: Icons.docker },
     { name: "GitHub Actions", icon: Icons.github },
-    { name: "AWS S3", icon: Icons.aws },
+    { name: "CI/CD", icon: GitBranch },
+    { name: "Apache Kafka", icon: Network },
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
   ],
   contact: {
     email: "rajeshkayal8001@gmail.com",
-    tel: "+916289943975",
+    tel: "+91-6289943975",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/rajesh-kayal-dev",
+        url: "https://github.com/rajesh-kayal",
         icon: Icons.github,
         navbar: true,
       },
-
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/rajesh110/",
+        url: "https://www.linkedin.com/in/rajesh110",
         icon: Icons.linkedin,
-
         navbar: true,
       },
       Twitter: {
         name: "Twitter",
         url: "https://x.com/RajeshKayal_",
         icon: Icons.x,
-
-        navbar: true,
-      },
-      Avely: {
-        name: "Avely",
-        url: "https://avely.me/rajesh",
-        icon: Icons.avely,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
         url: "mailto:rajeshkayal8001@gmail.com",
         icon: Icons.email,
-
         navbar: false,
       },
     },
@@ -91,83 +97,144 @@ export const DATA = {
     {
       company: "Zeetron Networks Pvt. Ltd.",
       href: "https://zeetronnetworks.com",
-      badges: ["Node.js", "Express.js", "REST API", "Microservices", "AI Integration"],
+      badges: ["MERN", "LangChain", "pgvector", "OpenAI APIs", "Microservices", "Kafka"],
       location: "Jaipur, Rajasthan",
-      title: "Full Stack Developer Intern",
+      title: "MERN Stack Developer – Academic Internship",
       logoUrl: "/zetron.jpg",
-      start: "January 2026",
-      end: "June 2026",
+      start: "Jan 2026",
+      end: "Jun 2026",
       description:
-        "- **Client Projects:** Contributed to multiple client projects, including a multi-vendor eCommerce platform, a CRM system, and AI-powered applications.\n- **Feature Development:** Built backend features, developed REST APIs, fixed production issues, and collaborated with senior developers to deliver new functionality.\n- **Microservices & AI:** Worked on a microservices-based fitness platform, gaining hands-on experience with modern backend architecture and AI integration.",
+        "- Built AI agents and RAG pipelines using LangChain, pgvector and OpenAI APIs in production MERN app.\n- Designed microservices with API Gateway, auth and Kafka using Node.js and TypeScript.",
     },
     {
       company: "PowerMyCode Solutions Pvt. Ltd.",
       href: "",
-      badges: ["Node.js", "REST API", "Payment Gateways", "AWS S3"],
+      badges: ["React.js", "Node.js", "MySQL", "MongoDB", "REST APIs", "AWS"],
       location: "Remote",
-      title: "Backend Developer",
+      title: "Software Developer",
       logoUrl: "/powermycode.jpg",
-      start: "July 2023",
-      end: "June 2024",
+      start: "Jul 2023",
+      end: "Jul 2024",
       description:
-        "- **Backend Development:** Developed backend modules and REST APIs for production web applications, contributing to feature development and ongoing maintenance.\n- **Integrations:** Integrated payment gateways and cloud storage to support secure transactions and file management.\n- **Client Collaboration:** Worked directly with clients to gather requirements, resolve production issues, and improve application performance by **30%**.",
+        "- Built 3 production web apps using React.js, Node.js, MySQL and MongoDB with clean UI/UX and REST APIs.\n- Managed AWS deployments and client delivery to ensure on-time releases with stable production.",
     },
   ],
   education: [
     {
-      school: "Dev Bhoomi Uttarakhand University (DBUU)",
+      school: "Dev Bhoomi Uttarakhand University, Dehradun",
       href: "https://www.dbuu.ac.in/",
-      degree: "Master of Computer Applications (MCA) | CGPA: 8.0",
+      degree: "Master of Computer Applications - CGPA: 8.0",
       logoUrl: "/dbuu.jpg",
-      start: "July 2024",
-      end: "July 2026",
+      start: "2024",
+      end: "2026",
     },
   ],
   projects: [
     {
-      title: "Sentio CLI",
-      href: "https://cli-sentio.duckdns.org/",
-      dates: "March 2026 - Present",
+      title: "Orderly – Food Delivery Platform",
+      href: "https://orderly-puce-rho.vercel.app/",
+      dates: "Mar 2026 – May 2026",
       active: true,
       description:
-        "An agentic terminal assistant that helps developers automate everyday development tasks through natural language commands. Connects AI with GitHub and other developer tools via MCP to perform real development workflows securely, with OAuth 2.0 Device Flow authentication and automated cross-platform releases for Windows, macOS, and Linux.",
+        "- Built a full-stack food-delivery platform with a Monorepo setup connecting customers, restaurants and drivers for real-time tracking.\n- Designed 6 microservices with API Gateway, Kafka event backbone, JWT auth and Socket.IO real-time updates.\n- Deployed distributed services with isolated PostgreSQL databases to ensure domain decoupling and high availability.",
       technologies: [
-        "Next.js",
-        "Node.js",
+        "React",
         "TypeScript",
-        "MCP",
-        "OAuth 2.0",
+        "Node.js",
+        "Microservices",
+        "PostgreSQL",
+        "Kafka",
+        "Monorepo",
       ],
       links: [
         {
           type: "Website",
-          href: "http://cli-sentio.duckdns.org",
+          href: "https://orderly-puce-rho.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/rajesh-kayal-dev/sentio-cli",
+          href: "https://github.com/rajesh-kayal",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/projects/Sentio-cli.gif",
+      image: "/projects/orderly.png",
       video: "",
     },
     {
-      title: "DataPilot AI",
+      title: "Can I Clone – Product Research to Build Platform",
+      href: "https://caniclone.vercel.app/",
+      dates: "Jun 2026 – Jul 2026",
+      active: true,
+      description:
+        "- Built a platform to analyze products like Notion or ChatGPT and check how they can be built from scratch.\n- Provides report on features, difficulty, budget and build plan with questions to customize requirements and MVP blueprint.\n- Engineered semantic search across 996 apps using PostgreSQL, pgvector and deployed on AWS EC2.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "PostgreSQL",
+        "Prisma",
+        "Gemini",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://caniclone.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/rajesh-kayal",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/caniclone.png",
+      video: "",
+    },
+    {
+      title: "Calby – Voice-First Desktop Assistant",
+      href: "https://calby-mu.vercel.app/",
+      dates: "Aug 2026 – Sep 2026",
+      active: true,
+      description:
+        "- Built a voice-first desktop assistant for reminders, scheduling and personal memory using Electron and Gemini.\n- Engineered a secure Electron architecture using React, SQLite and typed IPC to translate Gemini requests into desktop actions.\n- Released v1.0.0 with Windows, macOS and Linux installers via GitHub Actions for cross-platform distribution.",
+      technologies: [
+        "Electron",
+        "React",
+        "TypeScript",
+        "SQLite",
+        "Gemini",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://calby-mu.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/rajesh-kayal",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/projects/calby.png",
+      video: "",
+    },
+    {
+      title: "DataPilot AI – Document Intelligence Platform",
       href: "https://datapilotai-delta.vercel.app/",
       dates: "May 2026 - Present",
       active: true,
       description:
-        "An AI-powered document intelligence platform that lets users upload documents and ask questions in natural language, with answers grounded in their own content using Retrieval-Augmented Generation (RAG). Retrieves relevant document context before generating responses, improving answer quality across 1000+ processed documents, and processes uploads asynchronously with BullMQ and AWS S3 to keep the application responsive.",
+        "- Built an AI-powered document intelligence platform for chatting with uploaded documents using RAG.\n- Engineered retrieval pipelines with semantic search, vector stores, and custom prompt orchestration.\n- Handled document processing asynchronously using queues and AWS S3 to maintain high throughput.",
       technologies: [
+        "React.js",
+        "TypeScript",
         "Node.js",
         "Express.js",
-        "TypeScript",
         "LangChain",
-        "Qdrant",
         "RAG",
-        "BullMQ",
+        "pgvector",
         "AWS S3",
       ],
       links: [
@@ -178,140 +245,13 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/rajesh-kayal-dev/DataPilotAI",
+          href: "https://github.com/rajesh-kayal/DataPilotAI",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/projects/DataPilot.gif",
       video: "",
     },
-    {
-      title: "Repolyx",
-      href: "https://repolyx-client.vercel.app/",
-      dates: "April 2026 - May 2026",
-      active: true,
-      description:
-        "An AI-native engineering workspace and developer intelligence platform designed for repository analysis, workflow metrics, AI-driven chat, and security log tracking. Features dynamic dashboard analytics and GitHub OAuth integration.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "Node.js",
-        "Express.js",
-        "Prisma",
-        "PostgreSQL",
-        "Neon",
-        "Framer Motion",
-        "Tailwind CSS",
-        "Passport.js",
-        "Zod",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://repolyx-client.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/rajesh-kayal-dev/Repolyx",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/Repolyx.gif",
-      video: "",
-    },
-    {
-      title: "LaunchScore",
-      href: "https://launchscore.vercel.app/",
-      dates: "March 2026 - April 2026",
-      active: true,
-      description:
-        "A full-stack SaaS platform designed for startup validation and scoring. Includes secure JWT-based authentication, user-based website management, and a robust Express API connected to a Neon PostgreSQL database using Prisma ORM.",
-      technologies: [
-        "React.js",
-        "TypeScript",
-        "Node.js",
-        "Express.js",
-        "Prisma",
-        "PostgreSQL",
-        "Neon",
-        "Tailwind CSS",
-        "JWT",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://launchscore.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/rajesh-kayal-dev/launchscore-saas",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/LaunchScore.gif",
-      video: "",
-    },
-    {
-      title: "FitCircle Pro",
-      href: "https://fit-circle-pro.vercel.app",
-      dates: "February 2026 - March 2026",
-      active: true,
-      description:
-        "An AI-powered fitness platform that combines workouts, diet planning, AI chat, and fitness content into a single experience. Built with a microservices architecture separating authentication, workouts, diet, and chat into independent services connected through an API Gateway, with deployment automated via Docker and GitHub Actions.",
-      technologies: [
-        "React.js",
-        "Node.js",
-        "Express.js",
-        "Microservices",
-        "Docker",
-        "GitHub Actions",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://fit-circle-pro.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/rajesh-kayal-dev/FitCircle-Pro",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/FitCirclePro.gif",
-      video: "",
-    },
-    {
-      title: "Jubili",
-      href: "https://www.jubili.in/",
-      dates: "June 2025 - August 2025",
-      active: true,
-      description:
-        "A high-scale e-commerce platform designed to optimize seller-to-customer retail experiences. Implemented advanced virtual try-on integrations, personalized store pages, and an automated real-time order tracking pipeline.",
-      technologies: [
-        "Next.js",
-        "TypeScript",
-        "MongoDB",
-        "Tailwind CSS",
-        "AWS",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.jubili.in/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/jubili-in/jubili-web-public",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/projects/Jubili.gif",
-      video: "",
-    }
   ],
   hackathons: [
     {
@@ -358,6 +298,18 @@ export const DATA = {
         "A major coding and structural model-making competition hosted by the Department of Computer Science and Engineering.",
       image: "/hackathon.png",
       links: [],
+    },
+  ],
+  leadership: [
+    {
+      title: "Technical Mentorship",
+      description:
+        "Mentored college juniors for several months and helped them learn web technologies and system architecture.",
+    },
+    {
+      title: "Hackathons & Community",
+      description:
+        "Achieved podium finishes in multiple college hackathons and organized a hackathon at my college.",
     },
   ],
 } as const;

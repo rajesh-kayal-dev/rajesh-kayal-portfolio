@@ -12,16 +12,18 @@ function ProjectImage({ src, alt }: { src: string; alt: string }) {
   const [imageError, setImageError] = useState(false);
 
   if (!src || imageError) {
-    return <div className="w-full h-48 bg-muted" />;
+    return <div className="w-full h-52 sm:h-56 bg-muted" />;
   }
 
   return (
-    <img
-      src={src}
-      alt={alt}
-      className="w-full h-48 object-cover"
-      onError={() => setImageError(true)}
-    />
+    <div className="w-full h-52 sm:h-56 overflow-hidden bg-muted/20">
+      <img
+        src={src}
+        alt={alt}
+        className="w-full h-full object-cover object-top transition-transform duration-300 hover:scale-[1.02]"
+        onError={() => setImageError(true)}
+      />
+    </div>
   );
 }
 
@@ -75,12 +77,12 @@ export function ProjectCard({
               loop
               muted
               playsInline
-              className="w-full h-48 object-cover"
+              className="w-full h-52 sm:h-56 object-cover object-top"
             />
           ) : image ? (
             <ProjectImage src={image} alt={title} />
           ) : (
-            <div className="w-full h-48 bg-muted" />
+            <div className="w-full h-52 sm:h-56 bg-muted" />
           )}
         </Link>
         {links && links.length > 0 && (

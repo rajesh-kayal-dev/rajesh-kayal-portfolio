@@ -12,7 +12,7 @@ import ContactSection from "@/components/section/contact-section";
 import HackathonsSection from "@/components/section/hackathons-section";
 import ProjectsSection from "@/components/section/projects-section";
 import WorkSection from "@/components/section/work-section";
-import { ArrowUpRight } from "lucide-react";
+import { ArrowUpRight, Users, Trophy } from "lucide-react";
 import dynamic from "next/dynamic";
 
 const GitHubActivity = dynamic(() => import("@/components/GitHubActivity"), {
@@ -167,6 +167,35 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 13}>
           <HackathonsSection />
         </BlurFade>
+      </section>
+      <section id="leadership">
+        <div className="flex min-h-0 flex-col gap-y-4">
+          <BlurFade delay={BLUR_FADE_DELAY * 14}>
+            <h2 className="text-xl font-bold">Leadership & Achievements</h2>
+          </BlurFade>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {DATA.leadership.map((item, idx) => {
+              const Icon = idx === 0 ? Users : Trophy;
+              return (
+                <BlurFade key={item.title} delay={BLUR_FADE_DELAY * 14.5 + idx * 0.05}>
+                  <div className="border border-border/60 bg-card rounded-xl p-4 flex items-start gap-3 h-full hover:border-border transition-colors">
+                    <div className="p-2 rounded-lg bg-muted text-foreground flex-none">
+                      <Icon className="size-4" />
+                    </div>
+                    <div className="flex flex-col gap-1">
+                      <h3 className="font-semibold text-sm text-foreground">
+                        {item.title}
+                      </h3>
+                      <p className="text-xs text-muted-foreground leading-relaxed">
+                        {item.description}
+                      </p>
+                    </div>
+                  </div>
+                </BlurFade>
+              );
+            })}
+          </div>
+        </div>
       </section>
       <section id="contact">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
